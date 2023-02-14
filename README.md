@@ -1,5 +1,9 @@
 # nelo.dev
 
+<img src="public/lighthouse.png" alt="isolated" />
+
+<br />
+
 - **Framework**: [Astro](https://astro.build/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
