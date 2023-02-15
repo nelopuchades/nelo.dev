@@ -1,8 +1,22 @@
 # nelo.dev
 
-<img src="public/lighthouse.png" alt="isolated" />
+[![Built with Astro](https://astro.badg.es/v1/built-with-astro/large.svg)](https://astro.build)
 
 <br />
+
+## Web Vitals Results
+
+### Lighthouse
+
+<img src="public/lighthouse.png" alt="isolated" />
+
+### Vercel Analytics
+
+<img src="public/vercel_analytics.png" alt="isolated" />
+
+<br />
+
+## Tech Stack
 
 - **Framework**: [Astro](https://astro.build/)
 - **Deployment**: [Vercel](https://vercel.com)
