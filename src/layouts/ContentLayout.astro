@@ -73,3 +73,14 @@ const formattedDate = new Date(date).toLocaleDateString("en-us", {
     </style>
   </body>
 </html>
+
+<script>
+  import { webVitals } from '../scripts/vitals';
+
+  const analyticsId = import.meta.env.PUBLIC_VERCEL_ANALYTICS_ID;
+
+  webVitals({
+    path: window.location.pathname,
+    analyticsId,
+  });
+</script>

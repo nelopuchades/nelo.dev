@@ -52,3 +52,14 @@ import Header from "../components/Header.astro";
     </style>
   </body>
 </html>
+
+<script>
+  import { webVitals } from '../scripts/vitals';
+
+  const analyticsId = import.meta.env.PUBLIC_VERCEL_ANALYTICS_ID;
+
+  webVitals({
+    path: window.location.pathname,
+    analyticsId,
+  });
+</script>
