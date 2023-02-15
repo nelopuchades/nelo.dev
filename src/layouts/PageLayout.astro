@@ -54,6 +54,7 @@ import Header from "../components/Header.astro";
 </html>
 
 <script>
+  import { inject } from '@vercel/analytics';
   import { webVitals } from '../scripts/vitals';
 
   const analyticsId = import.meta.env.PUBLIC_VERCEL_ANALYTICS_ID;
@@ -62,4 +63,6 @@ import Header from "../components/Header.astro";
     path: window.location.pathname,
     analyticsId,
   });
+
+  inject();
 </script>

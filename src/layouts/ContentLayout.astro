@@ -75,6 +75,7 @@ const formattedDate = new Date(date).toLocaleDateString("en-us", {
 </html>
 
 <script>
+  import { inject } from '@vercel/analytics';
   import { webVitals } from '../scripts/vitals';
 
   const analyticsId = import.meta.env.PUBLIC_VERCEL_ANALYTICS_ID;
@@ -83,4 +84,6 @@ const formattedDate = new Date(date).toLocaleDateString("en-us", {
     path: window.location.pathname,
     analyticsId,
   });
+
+  inject();
 </script>
